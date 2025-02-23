@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="facturaxslt1.xslt"?>
+<Facturae xmlns:fe="http://www.facturae.es/Facturae/2009/v3.2/">
+    <FileHeader>
+        <SchemaVersion>3.2.2</SchemaVersion>
+        <Modality>I</Modality>
+        <InvoiceIssuerType>EM</InvoiceIssuerType>
+    </FileHeader>
+    <Parties>
+        <SellerParty>
+            <PartyName>
+                <Name>TechZone Store</Name>
+            </PartyName>
+            <TaxIdentification>
+                <TaxIdentificationNumber>ES12345678Z</TaxIdentificationNumber>
+            </TaxIdentification>
+        </SellerParty>
+        <BuyerParty>
+            <PartyName>
+                <Name>Carlos Murillo</Name>
+            </PartyName>
+            <TaxIdentification>
+                <TaxIdentificationNumber>ES87654321X</TaxIdentificationNumber>
+            </TaxIdentification>
+        </BuyerParty>
+    </Parties>
+    <Invoices>
+        <Invoice>
+            <InvoiceIssueDate>2025-02-23</InvoiceIssueDate>
+            <InvoiceTotalAmount>8350.00</InvoiceTotalAmount>
+            <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
+            <Items>
+                <InvoiceLine>
+                    <ItemDescription>Portátil Gamer ASUS ROG</ItemDescription>
+                    <Quantity>3</Quantity>
+                    <UnitPriceWithoutTax>1500.00</UnitPriceWithoutTax>
+                    <TotalCost>4500.00</TotalCost>
+                </InvoiceLine>
+                <InvoiceLine>
+                    <ItemDescription>Monitor LG UltraGear 27"</ItemDescription>
+                    <Quantity>5</Quantity>
+                    <UnitPriceWithoutTax>600.00</UnitPriceWithoutTax>
+                    <TotalCost>3000.00</TotalCost>
+                </InvoiceLine>
+                <InvoiceLine>
+                    <ItemDescription>Teclado Mecánico Logitech G Pro</ItemDescription>
+                    <Quantity>1</Quantity>
+                    <UnitPriceWithoutTax>200.00</UnitPriceWithoutTax>
+                    <TotalCost>200.00</TotalCost>
+                </InvoiceLine>
+                <InvoiceLine>
+                    <ItemDescription>Mouse Razer Viper</ItemDescription>
+                    <Quantity>7</Quantity>
+                    <UnitPriceWithoutTax>150.00</UnitPriceWithoutTax>
+                    <TotalCost>1050.00</TotalCost>
+                </InvoiceLine>
+            </Items>
+        </Invoice>
+    </Invoices>
+</Facturae>
